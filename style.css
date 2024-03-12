@@ -1,0 +1,56 @@
+.body {
+  background-color: rgb(250, 247, 242, 255);
+  font-family: Bahnschrift Condensed;
+}
+.naslov {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 48pt;
+  margin-top: 2cm;
+}
+.time {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 24pt;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding: 10px 0;
+}
+#art {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 48pt;
+  padding-top: 20px;
+}
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 3px;
+}
+.columns p {
+  flex: 1;
+  min-width: 0;
+  padding: 0 10px;
+}
+.author {
+  margin-top: 0;
+  text-align: left;
+}
+.citat {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bolder;
+}
+.bottom {
+  display: flex;
+}
+.bottomCol {
+  flex: 1;
+  margin-right: 10px;
+}
+.subheading {
+  text-align: left;
+  text-transform: uppercase;
+}
